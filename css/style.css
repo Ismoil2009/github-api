@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  flex-grow: 1;
+  background-color: #161b22;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
+
+.repo-as {
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+  margin: 10px;
+}
+
+.about {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input {
+  width: 30%;
+  height: 50px;
+  color: white;
+  padding-left: 10px;
+  background-color: transparent;
+  border: 1px solid slategrey;
+}

@@ -1,3 +1,9 @@
+/* Import codes */
+
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+/* Simple codes */
+
 html {
   height: 100%;
 }
@@ -8,6 +14,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Mooli";
 }
 
 body {
@@ -20,7 +27,7 @@ body {
 
 main {
   flex-grow: 1;
-  background-color: #161b22;
+  background-color: #0f172a;
 }
 
 img {
@@ -39,6 +46,8 @@ ol {
   list-style-type: none;
 }
 
+/* Repository info codes */
+
 .repo-as {
   color: white;
   border: 1px solid white;
@@ -46,11 +55,15 @@ ol {
   margin: 10px;
 }
 
+/* User info codes */
+
 .about {
   color: white;
   text-align: center;
   margin-top: 20px;
 }
+
+/* Search input codes */
 
 .input {
   width: 30%;
